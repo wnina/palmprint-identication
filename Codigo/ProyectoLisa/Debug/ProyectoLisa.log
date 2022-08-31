@@ -1,0 +1,63 @@
+﻿Build started 08/08/2013 11:12:57 a.m..
+     1>Project "C:\Users\Wilder\documents\visual studio 2012\Projects\ReconocimientoBiometricoPalmasMano\ProyectoLisa\ProyectoLisa.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ProyectoLisa.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Microsoft.VisualBasic.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AgAlgoritmoGenetico.cpp AgCromosoma.cpp AgPoblacion.cpp Imagen.cpp Interfaz.cpp RedNeuronal.cpp
+         AgAlgoritmoGenetico.cpp
+         AgCromosoma.cpp
+     1>AgCromosoma.cpp(22): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>AgCromosoma.cpp(17): warning C4101: 'n' : unreferenced local variable
+         AgPoblacion.cpp
+     1>AgPoblacion.cpp(91): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Imagen.cpp
+     1>Imagen.cpp(286): warning C4018: '<' : signed/unsigned mismatch
+     1>Imagen.cpp(294): warning C4018: '<' : signed/unsigned mismatch
+     1>Imagen.cpp(364): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Imagen.cpp(365): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Imagen.cpp(384): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Imagen.cpp(385): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Imagen.cpp(404): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Imagen.cpp(570): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Imagen.cpp(571): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Imagen.cpp(572): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Imagen.cpp(573): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Imagen.cpp(576): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Imagen.cpp(690): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Imagen.cpp(708): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Imagen.cpp(714): warning C4018: '<' : signed/unsigned mismatch
+     1>Imagen.cpp(721): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Interfaz.cpp
+     1>c:\users\wilder\documents\visual studio 2012\projects\reconocimientobiometricopalmasmano\proyectolisa\Interfaz.h(641): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\wilder\documents\visual studio 2012\projects\reconocimientobiometricopalmasmano\proyectolisa\Interfaz.h(662): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\wilder\documents\visual studio 2012\projects\reconocimientobiometricopalmasmano\proyectolisa\Interfaz.h(722): warning C4018: '<' : signed/unsigned mismatch
+         RedNeuronal.cpp
+     1>RedNeuronal.cpp(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>RedNeuronal.cpp(169): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+     1>c:\opencv\build\include\opencv2\core\types_c.h(312): warning C4793: 'cvRound' : function compiled as native :
+         	Inline native assembly not supported in managed code
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Wilder\documents\visual studio 2012\Projects\ReconocimientoBiometricoPalmasMano\Debug\ProyectoLisa.exe" /INCREMENTAL /NOLOGO opencv_core245d.lib opencv_imgproc245d.lib opencv_highgui245d.lib opencv_ml245d.lib opencv_video245d.lib opencv_features2d245d.lib opencv_calib3d245d.lib opencv_objdetect245d.lib opencv_contrib245d.lib opencv_legacy245d.lib opencv_flann245d.lib opencv_core245d.lib opencv_imgproc245d.lib opencv_highgui245d.lib opencv_ml245d.lib opencv_video245d.lib opencv_features2d245d.lib opencv_calib3d245d.lib opencv_objdetect245d.lib opencv_contrib245d.lib opencv_legacy245d.lib opencv_flann245d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\ProyectoLisa.Interfaz.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Wilder\documents\visual studio 2012\Projects\ReconocimientoBiometricoPalmasMano\Debug\ProyectoLisa.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\AgAlgoritmoGenetico.obj
+         Debug\AgCromosoma.obj
+         Debug\AgPoblacion.obj
+         Debug\Capa.obj
+         Debug\Imagen.obj
+         Debug\Interfaz.obj
+         Debug\Neurona.obj
+         Debug\RedNeuronal.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         ProyectoLisa.vcxproj -> C:\Users\Wilder\documents\visual studio 2012\Projects\ReconocimientoBiometricoPalmasMano\Debug\ProyectoLisa.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ProyectoLisa.unsuccessfulbuild".
+         Touching "Debug\ProyectoLisa.lastbuildstate".
+     1>Done Building Project "C:\Users\Wilder\documents\visual studio 2012\Projects\ReconocimientoBiometricoPalmasMano\ProyectoLisa\ProyectoLisa.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.24
